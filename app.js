@@ -32,7 +32,7 @@ const item3=new Item({
 const defaultItems=[item1,item2,item3];
 
 const listSchema={
-  name:String,
+  name:String, 
   items:[itemSchema]
 };
 
